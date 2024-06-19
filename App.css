@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.download-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.resume {
+  background-color: white;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header .name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 100px;
+}
+
+.header .role {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+}
+
+.header .contact-info {
+  text-align: right;
+}
+
+.header .contact-info div {
+  margin-top: 5px;
+}
+
+.header .Contact {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 48%;
+  height: 100%;
+  background-color: rgb(199, 228, 236);
+  padding: 10px;
+  margin-left: 0;
+}
+
+.right {
+  width: 48%;
+}
+
+h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+p,
+li {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.address,
+.experience {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: '•';
+  color: green;
+  margin-right: 10px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.editable {
+  border: none;
+  padding: 5px;
+}
+
+.editable.active {
+  border: 1px dashed #ccc;
+  padding: 5px;
+}
+
+.editable-container {
+  padding: 5px;
+  margin-bottom: 5px;
+}
